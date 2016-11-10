@@ -3,8 +3,7 @@
 // @version      1.4.6
 // @description  AutoCraft Steam Community Badges
 // @author       10101000
-// @match        *://steamcommunity.com/*/gamecards/*
-// @match        *://steamcommunity.com/*/badges/*
+// @include      /^(http|https)\:\/\/steamcommunity\.com\/(id\/.+|profiles\/7656119[0-9]{10})\/(badges|badges\/.*|gamecards\/.+)$/
 // @copyright    2016 10101000
 // @grant        none
 // ==/UserScript==
